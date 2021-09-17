@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Fira+Sans&family=Lobster&family=Pacifico&family=Permanent+Marker&display=swap');
+
+
+*{  margin:0px; 
+    padding:0px;
+    box-sizing: border-box; 
+}
+
+body{
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#nav{
+
+    background-color: #EFEE9D;
+    background-image: linear-gradient(to bottom right,#BEEBE9, #9BE3DE);
+    color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    font-family: "acme";
+}
+
+#name{
+    font-size: 20px;
+    font-family: "acme";
+}
+
+.leftnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    font-family: "lobster";
+}
+
+/* intro */
+.intro{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 250px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-size: 26px;
+} 
+
+/* About me */
+#color{
+    border-radius: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 320px;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right,#BEEBE9, #9BE3DE);
+    color:black;
+}
+
+.contentme{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;   
+}
+
+.contentme2{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    font-size: 20px;
+}
+
+#alignment{
+    text-align: center;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+
+/* Hobby */
+.hobbyb1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 900px;
+}
+
+#hobbyb2{
+    background-image: linear-gradient(to bottom right,#BEEBE9, #9BE3DE);
+    border: dotted red 2px;
+    width: 300px;
+    color: black;
+}
+
+#hobbyb2 > h3 {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline solid black;
+}
+
+ul{
+    list-style-type: circle;
+    padding: 10px;
+    line-height: 2.5;
+}
+
+/* SKILLS */
+
+#skillz{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;  
+    padding: 30px;
+}
+
+#skillmodify{
+    text-align: center;
+    font-size: 30px;
+    padding:20px;
+    text-decoration: underline solid black;
+    color: black;
+}
+
+#cpp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    font-size: 20px;
+}
+
+.picture{
+    display: flex;
+    flex-direction: column;
+    width:200px;
+}
+
+.pictures{
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+}
+
+.size{
+    padding:20px;
+    width: 200px;
+    height: 200px;
+}
+
+.small{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1000px;
+}
+
+.color2{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom right,#BEEBE9, #9BE3DE);
+    width: 95%;
+    justify-content: space-around;
+}
+
+.sizer{
+    width: 200px;
+    height: 200px;
+}
