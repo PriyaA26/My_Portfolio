@@ -4,6 +4,7 @@
 *{  margin:0px; 
     padding:0px;
     box-sizing: border-box; 
+    scroll-behavior: smooth;
 }
 
 body{
@@ -190,4 +191,26 @@ ul{
 .sizer{
     width: 200px;
     height: 200px;
+}
+
+.column1{
+    background-color: black;
+    color:white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    padding: 15px;
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+}
+
+.link-icon{
+    height: 40px;
+    width: 40px;
+    padding: 5px;
 }
